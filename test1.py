@@ -34,7 +34,7 @@ def fnSliderChange(slider_value):
 
 Text(window1, text="\nRoom Temperature", grid=[1, 1], align="right")
 sldRoomTmp = Slider(window1, start=50, end=120, command=fnSliderChange, grid=[1, 2], align="left")
-# Band definition
+# Defining first band
 
 Text(window1, text="", grid=[2, 1])
 Text(window1, text="\nDesired Temperature", grid=[3, 1], align="right")
